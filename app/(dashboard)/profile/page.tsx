@@ -187,7 +187,7 @@ export default function ProfilePage() {
                         variant="primary"
                         icon={Save}
                         onClick={handleSaveProfile}
-                        loading={isSaving}
+                        isLoading={isSaving}
                       >
                         Lưu thay đổi
                       </Button>

@@ -246,7 +246,7 @@ export default function ChatPage() {
   };
 
   const handleNewChat = () => {
-    setMessages(initialMessages);
+    setMessages(getInitialMessages());
     setSelectedSession(null);
   };
 
